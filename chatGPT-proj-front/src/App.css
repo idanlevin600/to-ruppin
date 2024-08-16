@@ -1,0 +1,68 @@
+#root {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.typography-header {
+  margin-right: 20px;
+}
+
+html {
+  overflow-y: scroll; /* Ensures consistent scrollbar */
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #121212; /* Ensure the background color covers the entire page */
+  color: #fff; /* Default text color */
+  height: 100%;
+  width: 100%;
+  font-family: 'Roboto', sans-serif; /* Optional: Use a modern font */
+  overflow-y: scroll; /* Ensure the body always scrolls */
+  box-sizing: border-box; /* Include padding and border in the element's total width and height */
+  padding-right: calc(100vw - 100%); /* Adjust padding to account for scrollbar width */
+}
+
+/* Custom scrollbar styles */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #bb86fc;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #121212;
+}
+
+/* Ensure the switch container spans the full width and centers its contents */
+.switch-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #121212;
+  color: #fff;
+  padding: 10px;
+}
+
+.switch-label {
+  margin: 0 10px;
+}
+
+.MuiSelect-select.MuiSelect-outlined.MuiInputBase-input.MuiOutlinedInput-input.css-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input {
+  width: 7em;
+}
